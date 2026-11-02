@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "licharle-aigcgen_jd477"
+name = "licharle-regression_vs_traffic_diff_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://licharle.github.io"
-Repository = "https://github.com/licharle/aigcgen_jd477"
-Issues = "https://github.com/licharle/aigcgen_jd477/issues"
+Repository = "https://github.com/licharle/regression_vs_traffic_diff_budget_alloc"
+Issues = "https://github.com/licharle/regression_vs_traffic_diff_budget_alloc/issues"
 
 [project.scripts]
-aigcgen_jd477 = "aigcgen_jd477:main"
+regression_vs_traffic_diff_budget_alloc = "regression_vs_traffic_diff_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["aigcgen_jd477"]
+py-modules = ["regression_vs_traffic_diff_budget_alloc"]
